@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>下载文件列表</title>
+    <script>
+        function updateFileList() {
+            // 假设我们有一个API返回文件列表
+            fetch('/api/files')
+                .then(response => response.json())
+                .then(data => {
+                    const fileList = document.getElementById('fileList');
+                    fileList.innerHTML = '';
+                    data.forEach(file => {
+                        const listItem = document.createElement('li');
+                        const link = document.createElement('a');
+                        link.href = file.url;
+                        link.download = file.name;
+                        link.textContent = `下载 ${file.name}`;
+                        listItem.appendChild(link);
+                        fileList.appendChild(listItem);
+                    });
+                })
+                .catch(error => console.error('Error fetching file list:', error));
+        }
+
+        // 每隔10秒更新一次文件列表
+        setInterval(updateFileList, 10000);
+    </script>
+</head>
+<body>
+    <h1>下载文件列表</h1>
+    <ul id="fileList">
+        <!-- 文件列表将动态更新 -->
+    </ul>
+</body>
+</html>
