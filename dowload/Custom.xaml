@@ -1,5 +1,8 @@
-<!-- 版本: 1.0.1 -->
-<StackPanel.Resources>
+<!-- 这是 PCL 的主页自定义文件。你可以通过修改这个文件来自定义 PCL 主页：添加文本、打开网页、启动游戏，等等。
+     如果你倒腾这个文件把 PCL 玩炸了，把这个文件直接删除就行了。
+     下列内容均基于 WPF 框架。你可以在继续之前先尝试自学 XAML 与 WPF 的基础，这能让你更轻松地理解下列内容。
+     你也可以使用 Ctrl + F 快速查找。例如，若需要改变文本颜色，则搜索 “颜色” 即可。 -->
+
 
 <local:MyCard Title="服务器通告" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
@@ -38,4 +41,3 @@
                     Text="整合包作者@shiziha、@Joeylth、@係虾饺呀" />
 	</StackPanel>
 </local:MyCard>
-</StackPanel>
