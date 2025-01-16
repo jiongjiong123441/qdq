@@ -25,8 +25,10 @@
                     Text="服务器Q群：" />
         <local:MyButton Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
                     Text="加入我们" EventType="打开网页" EventData="https://qm.qq.com/q/h40ayyzh5u" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10"
+                    Text="赞助我们：" />
         <local:MyButton Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-                    Text="赞助我们" EventType="爱发电" EventData="https://ifdian.net/a/on114514" />
+                    Text="爱发电" EventType="打开网页" EventData="https://ifdian.net/a/on114514" />
 	</StackPanel>
 </local:MyCard>
 
@@ -43,6 +45,6 @@
                     Text="整合包作者@shiziha、@Joeylth、@係虾饺呀" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="感谢名单" />
-                <local:MyImage Height="50" HorizontalAlignment="Center" Source="https://dowload.legendia.top/thanks/1.png" />
+                <local:MyImage Height="50" HorizontalAlignment="Center" Source="https://dowload.legendia.top/thanks.png" />
 	</StackPanel>
 </local:MyCard>
