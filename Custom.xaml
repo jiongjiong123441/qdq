@@ -45,6 +45,6 @@
                     Text="整合包作者@shiziha、@Joeylth、@係虾饺呀" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="感谢名单" />
-                <local:MyImage Height="300" HorizontalAlignment="Center" Source="https://raw.githubusercontent.com/jiongjiong123441/qdq/refs/heads/main/thinks.png" />
+                <local:MyImage Height="300" HorizontalAlignment="Center" Source="https://test.legendia.top/display_sponsors.php" />
 	</StackPanel>
 </local:MyCard>
