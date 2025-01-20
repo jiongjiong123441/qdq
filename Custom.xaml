@@ -35,7 +35,7 @@
 <local:MyCard Title="快速进入服务器" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
 		<local:MyButton Margin="0,4,0,0" Width="250" Height="35"
-                    Text="快速进入服务器" EventType="启动游戏" EventData="YUNQUAN|play.legendia.top" ToolTip="服务器地址：mc.joeylth.top"/>
+                    Text="快速进入服务器" EventType="启动游戏" EventData="YUNQUAN|play.legendia.top" ToolTip="服务器地址：play.legendia.top"/>
 	</StackPanel>
 </local:MyCard>
 
